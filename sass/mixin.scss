@@ -1,0 +1,15 @@
+@mixin transition($time, $effect){
+	transition:all $time $effect;
+	-webkit-transition:all $time $effect;
+	-moz-transition:all $time $effect;
+}
+@mixin transformScale($Zoom){
+	transform: scale($Zoom);
+	-webkit-transform: scale($Zoom);
+	-moz-transform: scale($Zoom);
+}
+@mixin transformScaleX($Zoom){
+	transform: scaleX($Zoom);
+	-webkit-transform: scaleX($Zoom);
+	-moz-transform: scaleX($Zoom);
+}
