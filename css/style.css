@@ -12,14 +12,14 @@ header p, header ul li a {
   font-size: 12px;
   text-transform: uppercase; }
 
-.navbar ul li a:hover, .navbar ul li:last-child a, .banner-section .btn-custom, .service-section div button, .form-section .btn-custom {
+.navbar ul li:last-child a, .banner-section .btn-custom, .service-section div button, .form-section .btn-custom {
   background-color: #f78f2f;
   color: #fff !important;
   border-radius: 30px;
   padding: 12px 18px !important;
   border: 1px solid #f78f2f; }
   @media (max-width: 991px) {
-    .navbar ul li a:hover, .navbar ul li:last-child a, .banner-section .btn-custom, .service-section div button, .form-section .btn-custom {
+    .navbar ul li:last-child a, .banner-section .btn-custom, .service-section div button, .form-section .btn-custom {
       padding: 8px 14px !important;
       font-size: 14px !important; } }
 
@@ -77,7 +77,14 @@ header {
     .navbar ul li a {
       display: inline-block !important; } }
 .navbar ul li a:hover {
+  background-color: #f78f2f;
+  color: #fff !important;
+  border-radius: 30px;
+  border: 1px solid #f78f2f;
   border: 1px solid #f78f2f; }
+  @media (max-width: 991px) {
+    .navbar ul li a:hover {
+      font-size: 14px !important; } }
   @media (max-width: 1199px) {
     .navbar ul li a:hover {
       display: inline-block !important; } }
